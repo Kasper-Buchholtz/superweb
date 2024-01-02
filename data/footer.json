@@ -38,10 +38,6 @@
                     "text": "Home"
                 },
                 {
-                    "link": "/features",
-                    "text": "Features"
-                },
-                {
                     "link": "/pricing",
                     "text": "Price"
                 },
@@ -71,10 +67,6 @@
         {
             "title": "Company",
             "links": [
-                {
-                    "link": "/contact",
-                    "text": "Contact"
-                },
                 {
                     "link": "/privacy",
                     "text": "Privacy Policy"

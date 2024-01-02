@@ -6,8 +6,8 @@ export default function HomeHero({ block, dataBinding }) {
   return (
     <>
 
-    <section class="bg-red-50 px-16 pt-40">
-
+    <section class="bg-red-50 px-16 pt-40 flex ">
+        <div className="w-1/2">
         <div>
             <h1 className="text-7xl">{block.title}</h1>
         </div>
@@ -27,8 +27,12 @@ export default function HomeHero({ block, dataBinding }) {
                 </Link>
             )}
         </div>
-
-
+        </div>
+        <div class="w-1/2">
+            {block.image && (
+                <img className="w-full h-auto max-h-[calc(100vh/1.6)] bg-cover object-cover" src={block.image} alt={block.image_alt} />
+            )}
+        </div>
     </section>
 
     

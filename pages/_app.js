@@ -1,5 +1,5 @@
-import '../styles/theme.scss';
 import '../styles/tw-output.css';
+import '../styles/theme.scss';
 
 import {CloudCannonConnect} from '@cloudcannon/react-connector'
 

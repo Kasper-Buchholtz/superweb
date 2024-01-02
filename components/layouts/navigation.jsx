@@ -23,7 +23,7 @@ export default function Navigation({ children, page }) {
 
     return (
         <>
-            <header className={`fixed w-full top-0 z-50 flex  transition-colors duration-1000 justify-between px-16 py-5 ${isSticky ? 'bg-black text-white' : ''}`}>
+            <header className={`fixed w-full top-0 z-50 flex  transition-colors duration-1000 justify-between px-16 py-5 ${isSticky ? 'bg-black !text-white' : ''}`}>
                 <Link href="/">
                     <h1 className='text-3xl font-bold'>LOGO</h1>
                 </Link>
