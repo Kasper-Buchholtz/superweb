@@ -129,7 +129,7 @@
   width: 90% !important;
 }
 
-.w-100 {
+.w-full {
   width: 100% !important;
 }
 
@@ -137,15 +137,15 @@
   width: auto !important;
 }
 
-.mw-100 {
+.mw-full {
   max-width: 100% !important;
 }
 
-.vw-100 {
+.vw-full {
   width: 100vw !important;
 }
 
-.min-vw-100 {
+.min-vw-full {
   min-width: 100vw !important;
 }
 @media (min-width: 1400px) {

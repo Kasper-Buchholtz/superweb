@@ -30,7 +30,7 @@ export default function Post({ page, posts }) {
 					<div className="col-lg-12">
 						<article className="blog-single">
 						<div className="inner-blog-details">
-							<h2 className="w-xxl-70 w-xl-80 w-100">{page.data.title}</h2>
+							<h2 className="w-xxl-70 w-xl-80 w-full">{page.data.title}</h2>
 							<div className="inner-blog-details-meta">
 								<ul className="list-unstyled">
 									<li className="list-inline-item">
@@ -51,7 +51,7 @@ export default function Post({ page, posts }) {
 						<div className="rounded-box mb-xxl-11 mb-8">
 							<img
 								src={page.data.featuredImg.image}
-								className="w-100"
+								className="w-full"
 								alt={page.data.featuredImg.image_alt}
 							/>
 						</div>

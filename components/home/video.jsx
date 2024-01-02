@@ -8,7 +8,7 @@ export default function HomeVideo({ block, dataBinding }) {
                             <div className="rounded-box">
                                 <img
                                     src={block.image}
-                                    className="w-100"
+                                    className="w-full"
                                     alt={block.image_alt}
                                     loading="lazy"
                                 />

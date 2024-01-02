@@ -64,13 +64,13 @@ export default function GlobalSignup({ block, dataBinding }) {
                                     </div>
                                 </div>
                                 <div className="col-md-12">
-                                    <button type="submit" className="btn btn-submit w-100">{block.form.sign_up_text}</button>
+                                    <button type="submit" className="btn btn-submit w-full">{block.form.sign_up_text}</button>
                                 </div>
                                 <div className="col-md-12 mt-3">
                                     <label for="" className="d-block text-center mb-0">or</label>
                                 </div>
                                 <div className="button-group">
-                                    <button type="submit" className="btn btn-submit btn-social w-100">
+                                    <button type="submit" className="btn btn-submit btn-social w-full">
                                         <svg
                                             width="20"
                                             height="20"
@@ -109,7 +109,7 @@ export default function GlobalSignup({ block, dataBinding }) {
                                         </svg>
                                         Sign In with Google
                                     </button>
-                                    <button type="submit" className="btn btn-submit btn-social w-100">
+                                    <button type="submit" className="btn btn-submit btn-social w-full">
                                         <svg
                                             width="20"
                                             height="20"

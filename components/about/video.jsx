@@ -22,7 +22,7 @@ export default function AboutVideo({ block, dataBinding }) {
                         <div className="works-banner">
                             <img
                                 src={block.video.image}
-                                className="w-100"
+                                className="w-full"
                                 alt={block.video.image_alt}
                                 loading="lazy"
                                 style={{"borderRadius": "20px"}}
