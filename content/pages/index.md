@@ -33,11 +33,6 @@ content_blocks:
         suffix: +
         text: Active users and growing
 
-  - _bookshop_name: home/video
-    image: /images/video/video-thum.jpg
-    image_alt: Thumbnail for video
-    video_url: https://vimeo.com/45830194
-
   - _bookshop_name: global/header
     title: "Sendit "
     title_suffix: Features
