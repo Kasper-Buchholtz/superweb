@@ -29,8 +29,8 @@ export default function Navigation({ children, page }) {
                 </Link>
                 <nav className='my-auto'>    
                     <ul className='flex gap-4'>
-                        {data.navigation.items.map((link, i) => (
-                            <li className={`nav-link   ${(page?.slug === 'index' ? 'home' : page?.slug?.toLowerCase()) === link.text.toLowerCase() ? 'underline underline-offset-4' : ''}`} key={i}>
+                        {data.navigation.items.map((link, index) => (
+                            <li className={`nav-link   ${(page?.slug === 'index' ? 'home' : page?.slug?.toLowerCase()) === link.text.toLowerCase() ? 'underline underline-offset-4' : ''}`} key={index}>
                                 <Link href={`${link.link}`}>
                                     {/* className={`nav-link ${(page?.slug === 'index' ? 'home' : page?.slug?.toLowerCase()) === link.text.toLowerCase() ? 'active' : ''}`} */}
                                     {link.text}
