@@ -1,5 +1,5 @@
 {
-    "logo": "/images/footer-logo.svg",
+    "logo": "/uploads/superego-full.svg",
     "logo_url": "/",
     "copyright": "MyCompany. All rights reserved.",
     "social": [
@@ -75,8 +75,8 @@
         }
     ],
     "_inputs": {
-      "logo": {
-        "type": "image"
-      }
+        "logo": {
+            "type": "image"
+        }
     }
 }
