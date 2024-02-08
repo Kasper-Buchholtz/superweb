@@ -1,0 +1,26 @@
+{
+	"logo": "/images/logo.svg",
+	"items": [
+		{
+			"link": "/",
+			"text": "Home"
+		},
+		{
+			"link": "/pricing/",
+			"text": "Pricing"
+		},
+		{
+			"link": "/blog/",
+			"text": "Blog"
+		}
+	],
+	"button": {
+		"link": "/signup/",
+		"text": "Get Started"
+	},
+	"_inputs": {
+	  "logo": {
+		"type": "image"
+	  }
+	}
+}
