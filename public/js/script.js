@@ -1,15 +1,7 @@
 $(document).ready(function () {
    'use strict';
 
-   // Magnific Popup
-   $('.popup-vimeo').magnificPopup({
-      disableOn: 700,
-      type: 'iframe',
-      mainClass: 'mfp-fade',
-      removalDelay: 160,
-      preloader: false,
-      fixedContentPos: false,
-   });
+
 
    const counterUp = window.counterUp.default
 
