@@ -1,58 +1,36 @@
-# Sendit
+This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-Sendit is a polished, marketing website template for NextJS. Browse through a [live demo](https://mysterious-oryx.cloudvent.net/). 
+## Getting Started
 
-![Sendit template screenshot](public/images/_screenshot.png)
+First, run the development server:
 
+```bash
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+# or
+bun dev
+```
 
-[![Deploy to CloudCannon](https://buttons.cloudcannon.com/deploy.svg)](https://app.cloudcannon.com/register#sites/connect/github/CloudCannon/sendit-nextjs-template)
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-## Features
+You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-* Pre-built pages
-* Pre-styled components
-* Blog with pagination and category pages
-* Configurable navigation and footer
-* Multiple hero options 
-* Configurable theme colors
-* Optimised for editing in [CloudCannon](https://cloudcannon.com/)
+This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
-## Setup
+## Learn More
 
-1. Get a workflow going to see your site's output (with [CloudCannon](https://app.cloudcannon.com/)
-or Next.js locally).
+To learn more about Next.js, take a look at the following resources:
 
-## Develop
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-Sendit is built with [Next.js](https://nextjs.org/) (version `13.0.4`).
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
 
-~~~bash
-$ npm install
-$ npm run dev
-~~~
+## Deploy on Vercel
 
-## Editing
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-Sendit is set up for adding, updating and removing pages, components, posts, portfolio items, company details and footer elements in [CloudCannon](https://app.cloudcannon.com/).
-
-### Posts
-
-* Add, update or remove a post in the *Posts* collection.
-* The **Staff Author** field links to members in the **Staff** collection.
-* Change the defaults when new posts are created in `content/posts/_defaults.md`.
-
-### Company details
-
-* Reused around the site to save multiple editing locations.
-* Set in the *Data* / *Company* section.
-
-### Nav/footer details
-
-* Reused around the site to save multiple editing locations.
-* Set in the *Data* section with respective names
-
-### Theme colors
-
-* Theme colors can be set in *Data* / *Theme*
-* The main colors are set and variants of them are computed
-* The colors will update on the next build
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
