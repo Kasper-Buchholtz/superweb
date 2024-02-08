@@ -19,16 +19,6 @@ collections_config:
       default:
         name: New Page
         path: schemas/page.md
-  blog:
-    path: content/posts
-    output: true
-    url: '/blog/[slug]'
-    _enabled_editors:
-      - content
-      - visual
-    schemas:
-      default:
-        path: schemas/post.md
 _inputs:
   date:
     instance_value: now
