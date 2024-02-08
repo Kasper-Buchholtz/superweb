@@ -6,7 +6,6 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "prebuild:fetch-theme-color": "node fetch-theme-color.js",
     "lint": "next lint",
     "tailwind" : "npx tailwindcss -i ./styles/tailwind.css -o ./styles/tw-output.css --watch"
   },
