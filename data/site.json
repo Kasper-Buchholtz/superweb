@@ -1,8 +1,8 @@
 {
-	"baseurl": "https://example.com/",
-    "site_title": "Sendit",
-    "description": "A polished, marketing website template built with NextJS",
-    "favicon_icon": "/images/favicon.ico",
+    "baseurl": "https://example.com/",
+    "site_title": "Superweb",
+    "description": "Superweb theme for cloudcannon",
+    "favicon_icon": "/uploads/superego.svg",
     "favicon_image": "/images/favicon.png",
     "twitter_site": "@twitter_site",
     "image": "/images/feature/feature-hero.png",
